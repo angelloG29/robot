@@ -67,13 +67,11 @@ padding: 50px;
 }
 
 .pe1{
-    display: inline-flex;
     margin-bottom: 16px;
     padding: 8px 14px;
     background: rgba(55, 161, 232, 0.14);
     border-radius: 999px;
     color: rgb(29, 78, 216);
-    text-transform: uppercase;
     letter-spacing: 0.08em;
     font-size: 0.78rem;
     font-weight: 700;
@@ -108,30 +106,72 @@ li{
 }
 .but1{
     background: linear-gradient(90deg,#2b83ff,#1966e6);
-        display: inline-block;
     width: 100%;
     padding: 12px 18px;
-    border: none;
     border-radius: 10px;
     color: rgb(255, 255, 255);
     font-weight: 700;
-    font-size: 0.95rem;
-    cursor: pointer;
-    margin-top: 12px;
+    font-size: 15px;
 }
 .but2{
     background: linear-gradient(90deg,#8b5cf6,#6d28d9);
-        display: inline-block;
     width: 100%;
     padding: 12px 18px;
-    border: none;
     border-radius: 10px;
     color: rgb(255, 255, 255);
     font-weight: 700;
-    font-size: 0.95rem;
-    cursor: pointer;
-    margin-top: 12px;
+    font-size: 15px;
 }
 .pe5{
     text-align: center;
+}
+.contenedor{
+  background-color: rgb(11, 19, 37); 
+  color: rgb(138, 153, 173);            
+  padding: 30px 30px;      
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cuerpo{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  gap: 40px;
+}
+.bloque{
+  max-width: 300px;
+}
+.logo{
+  color: rgb(255, 255, 255);            
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  letter-spacing: 0.5px;
+}
+
+.logo span{
+  color: rgb(43, 108, 176);           
+}
+.des{
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0;
+}
+.direccion{
+  text-align: right;       
+}
+.bloqued{
+  font-size: 0.95rem;
+  margin: 0 0 8px 0;
+  color: rgb(160, 174, 192);
+}
+.colork {
+  color: rgb(49, 130, 206);
+  font-weight: 700;
+}
+.copy{
+  font-size: 0.8rem;
+  color: rgb(74, 85, 104);           
+  margin: 20px 0 0 0;
 }
